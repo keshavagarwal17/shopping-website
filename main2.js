@@ -6,6 +6,7 @@ function onLoadCart(){
     var number = localStorage.getItem('cartNumber');
     if(number){
         document.getElementsByClassName('clearallbtn')[0].style.display="block";
+        document.getElementsByClassName('finalprice')[0].style.display="block";
         document.getElementsByClassName('another')[0].style.display="none";
     document.getElementsByClassName('circle')[0].innerHTML=number;
     var incart= localStorage.getItem('incart');
@@ -57,6 +58,7 @@ function onLoadCart(){
 }
 else{
     document.getElementsByClassName('clearallbtn')[0].style.display="none";
+    document.getElementsByClassName('finalprice')[0].style.display="none";
     document.getElementsByClassName('another')[0].style.display="block";
 }
 }
