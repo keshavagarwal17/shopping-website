@@ -51,6 +51,7 @@ function onLoadCart(){
        var para = document.createElement('br');
        document.getElementsByClassName('amount')[0].appendChild(para);
     });
+    
 }
 else{
     document.getElementsByClassName('clearallbtn')[0].style.display="none";
@@ -62,7 +63,6 @@ var z = document.getElementsByClassName('delimage');
 for(var i=0;i<z.length;i++)
 {
     z[i].addEventListener('click',function(){
-
     });
 }
 
