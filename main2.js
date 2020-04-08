@@ -51,7 +51,9 @@ function onLoadCart(){
        var para = document.createElement('br');
        document.getElementsByClassName('amount')[0].appendChild(para);
     });
-    
+    var totalprice = localStorage.getItem('totalprice');
+    totalprice = parseInt(totalprice);
+    document.getElementsByClassName('total1')[0].innerHTML=totalprice;
 }
 else{
     document.getElementsByClassName('clearallbtn')[0].style.display="none";

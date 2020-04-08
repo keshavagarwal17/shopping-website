@@ -15,6 +15,17 @@
     padding-top:25px;
     padding-bottom: 4px;
 }
+.finalprice{
+    display: flex;
+    width: 850px;
+    margin-left:270px;
+    margin-top: 50px;
+}
+.total1{
+   font-weight: bolder;
+   font-size: 20px;
+   margin-left: 620px;
+}
 a{
     text-decoration: none;
     color: white;
@@ -153,14 +164,21 @@ ul li{
 /* for cart page */
 .product-header{
     display: flex;
-    width: 850px;
+    width: 950px;
     margin-top: 20px;
-    justify-content: space-around;
-    margin-left: 270px;
+    margin-left: 220px;
     text-align:center;
     border-bottom: 2px solid orange;
 }
-
+.price{
+    margin-left:270px;
+}
+.quantity{
+    margin-left: 140px;
+}
+.total{
+    margin-left: 120px;
+}
 .products{
     display: flex;
     width:850px;
