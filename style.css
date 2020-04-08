@@ -2,7 +2,19 @@
    margin: 0;
    font-family: sans-serif;
 }
-
+.home{
+    background-color: white;
+    color: #F95700FF;
+    border-radius: 120px;
+    padding: 10px;
+}
+.cart{
+    background-color: white;
+    color: #F95700FF;
+    border-radius: 120px;
+    padding-top:25px;
+    padding-bottom: 4px;
+}
 a{
     text-decoration: none;
     color: white;
