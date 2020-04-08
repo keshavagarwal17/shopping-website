@@ -56,14 +56,14 @@ function limageSlide(y2)
     else{
         y1[0].style.display = "none";
     }
-    if(lindex1==3)
+    if(lindex1==1)
     {
         y11[0].style.display="none";
     }
     else{
         y11[0].style.display="block";
     }
-    var y4=510*lindex1;
+    var y4=1500*lindex1;
      document.getElementsByClassName("laptop")[0].style.marginLeft=("-"+y4+"px");
 }
 
