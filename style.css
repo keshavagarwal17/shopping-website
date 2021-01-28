@@ -38,11 +38,11 @@ button{
     background-color: #F95700FF;
     height: 80px;
     color: #FFFFFFFF;
-    padding-top: 20px;
     display: flex;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 input[type="text"]
